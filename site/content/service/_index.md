@@ -1,5 +1,5 @@
 ---
-title: "Values"
+title: "Our Amazing Services For Amazing Businesses"
 image: /img/about-jumbotron.jpg
 values:
   - heading: "MSP"

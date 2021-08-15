@@ -10,11 +10,9 @@ intro:
     text: "From A to Z we provide value to our clients. You could expect us to respond quickly. Work remotely or come to you. Get help now."
 products:
     - image: img/illustrations-coffee.svg
-      text: "Managed Services."
+      text: "Outsourced IT. Managed Services. Networking. Backup and Desastor Recovery"
     - image: /img/illustrations-coffee-gear.svg
-      text: "Onsite Repairs."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "Ethical Hacking."
+      text: "Computer Repair. Low Voltage. Preventavie Matinance."
 values:
     heading: About
     text: In 2008 I became incorporteted.
