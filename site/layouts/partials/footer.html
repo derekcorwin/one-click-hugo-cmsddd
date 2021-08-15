@@ -4,43 +4,37 @@
 
 		<div class="measure-narrow center mb4">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
+			<img src="/img/logo.svg" alt="allcompu logo" class="db w4 center mb4 br0">
+						
 		</div>
 
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<h3 class="f4 b lh-title mb1 primary">AllCompU</h3>
 				<ul class="mb3">
 					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="/service/" class="link">Service</a></li>
+					<li><a href="/about/" class="link">About</a></li>
+					<li><a href="/post/" class="link">News</a></li>
+					<li><a href="/contact/" class="link">Contact</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
+				<h3 class="f4 b lh-title mb1 primary">Reviews</h3>
+				<div id="e2wget5widget"><script id="e2wWidgetScript" src="https://widget.reviewability.com/js/widgetAjax.min.js" data-src="https://rb.whitespark.ca/reviews-mobile.js/60959.730efa3eb053dfab771cb5be936e10dd45f9ebd2" data-widgettype="badge" async></script></div><script class="json-ld-content" type="application/ld+json"></script>
 			</div>
 
 			<div>
 				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+					{{ partial "social-icon" (dict "link" "https://www.facebook.com/AllComputingNet/" "svg" "icons-facebook") }}
+					{{ partial "social-icon" (dict "link" "https://twitter.com/allcomputingnet" "svg" "icons-twitter") }}
+					<!--{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}-->
+					<!--{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}-->
 				</ul>
+				<p>501-291-2249<br>2011 E Roosevelt Rd Bldg B<br>Little Rock, AR   72206</p><br>
 			</div>
 
 		</div>
@@ -51,3 +45,7 @@
 {{ partial "svg" . }}
 
 <script src="/app.js"></script>
+
+</body>
+
+</html>
