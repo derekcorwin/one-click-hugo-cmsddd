@@ -9,9 +9,9 @@ intro:
     heading: "Services"
     text: "From A to Z we provide value to our clients. You could expect us to respond quickly. Work remotely or come to you. Get help now."
 products:
-    - image: img/computer-systems-administrator.svg
+    - image: img/illustrations-coffee.svg
       text: "Outsourced IT. Managed Services. Network Diagnostics. Server Administration."
-    - image: /img/computer-troubleshooting-help.svg
+    - image: /img/illustrations-coffee-gear.svg
       text: "Computer Repair. Low Voltage. Preventavie Matinance."
 values:
     heading: About
